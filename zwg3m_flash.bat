@@ -6,8 +6,8 @@ setlocal
 set comport=COM3
 if exist %1 set comport=%1
 
-tasklist | find "coda.exe" > NUL
-if NOT ERRORLEVEL 1 @( taskkill /im /f coda.exe )
+rem tasklist | find "coda.exe" > NUL
+rem if NOT ERRORLEVEL 1 @( taskkill /im /f coda.exe )
 
 
 set pathexe=C:\Desktop\IoT_Flash_Tool_Windows\coda.exe 
